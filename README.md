@@ -1,16 +1,47 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# 🎉 My First React App
 
-## React Compiler
+A fun interactive landing page built while learning React for the first time.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🔗 Live Demo: https://my-first-react-app-button-confetti.vercel.app/
 
-## Expanding the ESLint configuration
+<img width="500" height="731" alt="Screenshot 2026-03-05 at 13 40 15" src="https://github.com/user-attachments/assets/0646fbc8-06d1-4aa9-a32e-ffefbe8c674c" />
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features
+
+- ⚛️ Spinning React logo
+- 🎯 Animated 3D tilt button (`react-tilt-button`)
+- 🎊 Confetti explosion on click (`canvas-confetti`)
+- 🔊 Achievement sound effect (Web Audio API — no files needed!)
+
+## Built With
+
+- [React](https://react.dev/) — UI library
+- [Vite](https://vite.dev/) — Build tool and dev server
+- [react-tilt-button](https://react-tilt-button.vercel.app/) — 3D tactile button
+- [canvas-confetti](https://www.npmjs.com/package/canvas-confetti) — Confetti animation
+
+## Getting Started
+
+### Install dependencies
+```
+npm install
+```
+
+### Start development server
+```
+npm run dev
+```
+
+Then open [http://localhost:5173](http://localhost:5173) in your browser.
+
+## What I Learned
+
+- How to set up a React project with Vite
+- JSX syntax (className, onClick, style props)
+- Importing and using third-party React libraries
+- Overriding third-party library CSS
+- The Web Audio API for generating sounds in the browser
+- Git basics — committing and pushing to GitHub
